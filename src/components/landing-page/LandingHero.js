@@ -76,14 +76,8 @@ export default function LandingHero() {
       <RootStyle initial="initial" animate="animate" variants={varWrapEnter}>
         <HeroOverlayStyle
           alt="overlay"
-          src="/static/home/overlay.svg"
+          src="/static/home/banner-image.jpg"
           variants={varFadeIn}
-        />
-
-        <HeroImgStyle
-          alt="hero"
-          src="/static/home/hero.png"
-          variants={varFadeInUp}
         />
 
         <Container maxWidth="lg">
@@ -148,40 +142,6 @@ export default function LandingHero() {
                 Live Preview
               </Button>
             </motion.div>
-
-            <Box
-              sx={{
-                mt: 5,
-                display: 'flex',
-                justifyContent: { xs: 'center', md: 'flex-start' },
-                '& > :not(:last-of-type)': { mr: 1.5 }
-              }}
-            >
-              <motion.img
-                variants={varFadeInRight}
-                src="/static/icons/ic_m_sketch.svg"
-              />
-              <motion.img
-                variants={varFadeInRight}
-                src="/static/icons/ic_m_figma.svg"
-              />
-              <motion.img
-                variants={varFadeInRight}
-                src="/static/icons/ic_m_material.svg"
-              />
-              <motion.img
-                variants={varFadeInRight}
-                src="/static/icons/ic_m_react.svg"
-              />
-              <motion.img
-                variants={varFadeInRight}
-                src="/static/icons/ic_m_js.svg"
-              />
-              <motion.img
-                variants={varFadeInRight}
-                src="/static/icons/ic_m_ts.svg"
-              />
-            </Box>
           </ContentStyle>
         </Container>
       </RootStyle>

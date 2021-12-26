@@ -34,11 +34,11 @@ export default function LandingPage() {
     >
       <LandingHero />
       <ContentStyle>
-        <LandingMinimal />
-        <LandingHugePackElements />
+        {/* <LandingMinimal /> */}
+        {/* <LandingHugePackElements /> */}
         <LandingDarkMode />
-        <LandingCleanInterfaces />
-        <LandingAdvertisement />
+        {/* <LandingCleanInterfaces /> */}
+        {/* <LandingAdvertisement /> */}
         <LandingFooter />
       </ContentStyle>
     </RootStyle>
